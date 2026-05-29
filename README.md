@@ -6,10 +6,10 @@ Implemented Ciphers:
 1. Caesar Cipher
 A simple shift-based substitution cipher that supports:
 
-Encryption of plaintext
-Decryption of ciphertext
-Custom shift key
-Preservation of spaces and special characters
+Encryption of plaintext,
+Decryption of ciphertext,
+Custom shift key,
+Preservation of spaces and special characters,
 Uppercase text handling
 
 -------------------------------------------------------------------------------------
@@ -17,11 +17,11 @@ Uppercase text handling
 2. Monoalphabetic Cipher
 A substitution cipher where each alphabet letter maps to a randomly shuffled alphabet.
 
-Random key generation
-Encryption of plaintext
-Decryption of ciphertext
-Key storage using JSON
-Preservation of spaces and symbols
+Random key generation,
+Encryption of plaintext,
+Decryption of ciphertext,
+Key storage using JSON,
+Preservation of spaces and symbols,
 Uppercase text handling
 
 -------------------------------------------------------------------------------------
