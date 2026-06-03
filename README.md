@@ -36,6 +36,22 @@ Rectangle → replace each letter with the one in the same row but the other let
 Notes:
 Text is processed in pairs of letters,
 Repeated letters in a pair are separated using X,
-If one letter remains, X is added,
+If one letter remains, X is added
+
+-------------------------------------------------------------------------------------------------------
+
+4. Rail Fence Cipher
+A transposition cipher where characters are written in a zig-zag pattern across multiple rails.
+
+Rules:
+Plaintext is written in a zig-zag pattern across 3 rails,
+Characters move diagonally down and up between rails,
+Ciphertext is formed by reading each rail sequentially,
+Decryption rebuilds the zig-zag pattern using the same rail order,
+
+Notes:
+Spaces are removed before processing,
+Input is converted to uppercase,
+Works using pattern reconstruction during decryption
 
 -------------------------------------------------------------------------------------------------------
