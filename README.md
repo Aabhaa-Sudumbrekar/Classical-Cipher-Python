@@ -55,3 +55,17 @@ Input is converted to uppercase,
 Works using pattern reconstruction during decryption
 
 -------------------------------------------------------------------------------------------------------
+
+Vigenère Cipher
+A polyalphabetic substitution cipher that uses a repeating keyword to shift letters.
+
+Rules:
+Each letter of plaintext is shifted based on the corresponding letter of the repeating key,
+Encryption: (Plaintext + Key) mod 26,
+Decryption: (Ciphertext - Key) mod 26,
+Key is repeated to match the length of the message
+
+Notes:
+Only uppercase letters A–Z are used,
+Key is automatically repeated to match message length,
+Spaces are removed before processing
